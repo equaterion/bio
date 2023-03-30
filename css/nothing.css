@@ -1,0 +1,44 @@
+html,body{
+    height: 100%;
+    place-items: center;
+    text-align: center;
+}
+
+#animatedText {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    max-width: 70%;
+    text-align: left;
+    font-size: 2rem;
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    color: #fff;
+    /*text-shadow: 0 0 4px #fff;*/
+    animation: typing 1.5s steps(40, end), blink-caret 0.75s step-end infinite;
+    padding-right: 1rem;
+    padding-top: 20rem;
+  }
+  
+  /* The typewriter cursor effect */
+  #animatedText::after {
+    content: " ";
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    top: 95%;
+    transform: translateY(-50%);
+    width: 0.8rem;
+    height: 1.9rem;
+    background-color: #fff;
+    animation: blink 1.5s ease-out infinite;
+    border-radius: 0.1rem;
+    margin-right: 0.1rem;
+  }
+  @keyframes blink {
+    0%   { opacity: 0 }
+    30%  { opacity: 1 }
+    100% { opacity: 0 }
+  }
+  
