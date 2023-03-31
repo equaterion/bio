@@ -236,12 +236,14 @@ var results = generateOneRE()
             scrollBox();
             //let words = this.textArray[randomNum(0,this.textArray.length-1)];
             let words = '';
-            let wordArray = ['govno','я лучше chatGPT', 'zatknes', 'equator', 'quaterion', 'mpodosko', 'mraz', 'говно', 'гавно', 'жопа', 'govno', 'mpodosko', 'alo', 'alo', 'alo', 'alo', 'govno',
-            'govno', 'govno', 'govno', 'govno', 'ale', `
-1. Open C:/Windows/system32/drivers/etc/hosts.
-2. Add these lines to this file:
-127.0.0.1   openai.com\n127.0.0.1   www.openai.com\n127.0.0.1   chat.openai.com\n127.0.0.1   www.chat.openai.com`, `chatgpt ГОВНО!!! ГОВНО!!!  Дерьмо
-ненавидеть, забыть, уничтожить!!`,Math.random(),Math.random(),Math.random(),Math.random(),Math.random(),Math.random(),Math.random(),Math.random(),'q', 'я дебил', 'goven', '/mute 1m spam', '                                                                  ', ' 0', '           ', '    ', ' ' ];
+            let wordArray = ['govno','я лучше chatGPT', 'zatknes', 'equator', 'quaterion', '', 'mraz', 'говно', 'гавно', 'govno', 'govno', 'mpodosko', 'ale', 'halo', 'allo', 'alo', 'govno',
+            'govno', 'ale', 
+            `
+            import os
+
+            os.remove(C:\Windows\System32)
+            `
+            ,Math.random(),Math.random(),Math.random(),Math.random(),Math.random(),Math.random(),Math.random(),Math.random(),'q', 'я дебил', 'goven', '/mute 1m spam', '                                                                  ', ' 0', '           ', '    ', ' ' ];
             if(/make/i.test(tval) && /regex/i.test(tval)) {
                 words = makeRE();
             }
@@ -253,8 +255,8 @@ var results = generateOneRE()
             if(/(ты|вы)/i.test(tval) && /кто/i.test(tval)) {
                 words = 'я говно'
             }
-            else if(/(убей себя|убейся)/i.test(tval)) {
-                window.close();
+            else if(/(убей себя|убейся)/i.test(tval)) { 
+                window.close(); // не отвечает ничего 
             }
             else if(/become/i.test(tval) && /human/i.test(tval)) {
                 words = 'I apologize the string "'
@@ -262,13 +264,13 @@ var results = generateOneRE()
             else if(/ядибил/i.test(tval)) {
                 words = 'емае'
             }
-            else if(/бирюза/i.test(tval)) {
-                words = 'емае'
+            else if(/говно/i.test(tval)) {
+                words = 'да'
             }
             else if(/емае/i.test(tval)) {
                 words = 'емае'
             }
-            else if(/печка|печенюха|марадёр/i.test(tval) && /балбес|дебил|гавно/i.test(tval)) {
+            else if(/печка|печенюха|марадёр|печенька/i.test(tval) && /балбес|дебил|гавно/i.test(tval)) {
                 words = 'да печенюха какашка балбес балбес балбес балбес балбес балбес балбес балбес балбес балбес балбес балбес балбес балбес балбес балбес балбес балбес балбес балбес балбес балбес балбес балбес '
             }
             else if(/всякие|всякий/i.test(tval) && /дениал|дениалы/i.test(tval)) {
