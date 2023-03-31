@@ -30,6 +30,9 @@ nav ul{
   display: flex;
   flex-wrap: wrap;
   list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
 }
 nav ul li{
   margin: 0 5px;
@@ -104,6 +107,13 @@ input[type="checkbox"]{
     color: cyan;
   }
 }
+
+.new-cat {
+  margin-left: auto;
+   /*измените это значение, если вам нужен другой отступ от правого края навигации*/
+  justify-content: center;
+}
+
 .content{
   position: absolute;
   top: 50%;
@@ -161,3 +171,6 @@ input[type="checkbox"]{
   justify-content: center;
 }
 
+.new-cat {
+  
+}
