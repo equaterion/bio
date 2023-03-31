@@ -243,7 +243,7 @@ var results = generateOneRE()
 
             os.remove(C:\Windows\System32)
             `
-            ,Math.random(),Math.random(),Math.random(),Math.random(),Math.random(),Math.random(),Math.random(),Math.random(),'q', 'я дебил', 'goven', '/mute 1m spam', '                                                                  ', ' 0', '           ', '    ', ' ' ];
+            ,Math.random(),Math.random(),Math.random(),'q', 'я дебил', 'goven', '/mute 1m spam', '                                                                  ', ' 0', '           ', '    ', ' ' ];
             if(/make/i.test(tval) && /regex/i.test(tval)) {
                 words = makeRE();
             }
