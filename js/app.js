@@ -236,14 +236,8 @@ var results = generateOneRE()
             scrollBox();
             //let words = this.textArray[randomNum(0,this.textArray.length-1)];
             let words = '';
-            let wordArray = ['govno','я лучше chatGPT', 'zatknes', 'equator', 'quaterion', '', 'mraz', 'говно', 'гавно', 'govno', 'govno', 'mpodosko', 'ale', 'halo', 'allo', 'alo', 'govno',
-            'govno', 'ale', 
-            `
-            import os
-
-            os.remove(C:\Windows\System32)
-            `
-            ,Math.random(),Math.random(),Math.random(),'q', 'я дебил', 'goven', '/mute 1m spam', '                                                                  ', ' 0', '           ', '    ', ' ' ];
+            let wordArray = ['govno','я лучше chatGPT', 'zatknes', 'equator', 'quaterion', 'ban', 'pechenka balbes', 'говно', 'гавно', 'govno', 'mpodosko спасибо что помог', 'mpodosko', 'ale', 'halo', 'alo', 'alo', 'govno',
+            'govno', 'ale', Math.random() , Math.random() , Math.random() ,'qq', 'я говно', 'goven', '/mute 1m spam'];
             if(/make/i.test(tval) && /regex/i.test(tval)) {
                 words = makeRE();
             }
@@ -264,7 +258,7 @@ var results = generateOneRE()
             else if(/ядибил/i.test(tval)) {
                 words = 'емае'
             }
-            else if(/говно/i.test(tval)) {
+            else if(/говено/i.test(tval)) {
                 words = 'да'
             }
             else if(/емае/i.test(tval)) {
